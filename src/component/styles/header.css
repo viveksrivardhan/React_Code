@@ -1,0 +1,41 @@
+/* .header {
+  height: 8%;
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  padding: 2px;
+} */
+.image-box {
+  height: 100%;
+  width: 8%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.image-box > img {
+  height: 100%;
+  width: 90%;
+  border: none;
+}
+.location-box {
+  height: 100%;
+  width: 10%;
+  background-color: cornflowerblue;
+  display: flex;
+}
+.logo {
+  height: 100%;
+  width: 35%;
+  background-color: black;
+}
+.address {
+  height: 100%;
+  width: 65%;
+  background-color: teal;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
